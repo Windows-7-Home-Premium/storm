@@ -1,21 +1,48 @@
 body {
-                background: #D6DDF6;
-                font-family: "Lucida Console", "Courier New", monospace;
-            }
-            
-figure {width:20%;
-             background: /*#EFD6F6*/ white;;
-            }
-            
-img {width:80%;}
-            
-img#PSB {width:10%;}
-            
-section{
-            background: coral;
-            width:90%;
-            margin:auto;
-            }
+    background: #D6DDF6;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+figure {
+    width: 20%;
+    background: /*#EFD6F6*/ white;
+    ;
+}
+
+img {
+    width: 80%;
+}
+
+img#PSB {
+    width: 10%;
+}
+
+section {
+    background: coral;
+    width: 90%;
+    margin: auto;
+}
 div.resumeblock {
-    background-color:white;
+    background-color: white;
+}
+div.content {
+    margin: auto;
+    width: 80%;
+}
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+p.cc {
+    display:flex;
 }
